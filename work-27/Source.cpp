@@ -44,7 +44,7 @@ int main()
     cout << "enter the order of matrix";
     cin >> n;
     mypointer1 = &n;
-    printf("star patter be like size %d*%d\n", *mypointer1,*mypointer1);
+    printf("star pattern be like size %d*%d\n", *mypointer1,*mypointer1);
     for (int i = 1; i <= *mypointer1; i++) {
         for (int j = 1; j <= *mypointer1; j++) {
             printf("* ");
